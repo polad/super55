@@ -1,9 +1,11 @@
 import { combineReducers } from 'redux';
 import { routerReducer as router } from 'react-router-redux';
+import { reducer as dictionary } from './dictionary';
 
 export const reducers = (asyncReducers) => {
   return combineReducers({
     router,
+    dictionary,
     ...asyncReducers,
   });
 };
