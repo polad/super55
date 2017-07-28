@@ -1,0 +1,19 @@
+.react-autosuggest__suggestions-container {
+  width: 255px;
+}
+
+.react-autosuggest__suggestions-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.react-autosuggest__input,
+.react-autosuggest__input input,
+.react-autosuggest__suggestion {
+  text-transform: capitalize;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: teal;
+}

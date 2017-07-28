@@ -4,6 +4,7 @@ import Autosuggest from 'react-autosuggest';
 import renderInput from './Input';
 import renderSuggestion from './Suggestion';
 import renderSuggestionsContainer from './SuggestionContainer';
+import './SearchBar.css';
 
 class SearchBar extends Component {
   static propTypes = {
@@ -13,6 +14,7 @@ class SearchBar extends Component {
   };
 
   render() {
+
     /* eslint-disable react/prop-types, no-unused-vars */
     const {
       anchorEl,
